@@ -23,17 +23,17 @@ solution "NoVR"
       "*.lua",
     }
       
-    includedirs { "../Source", "$(OpenVRDir)/headers", "../Libraries/glm" }
+    includedirs { "../Source", "C:/libs/openvr/headers", "../Libraries/glm" }
     links { "openvr_api" }
     
     defines { "NOMINMAX" }
     
     configuration "x64"
-      libdirs { "$(OpenVRDir)/lib/win64" }
+      libdirs { "C:/libs/openvr/lib/win64" }
       targetdir "C:/steamcmd/SteamApps/common/SteamVR/drivers/null/bin/win64"
     
     configuration "x32"
-      libdirs { "$(OpenVRDir)/lib/win32" }
+      libdirs { "C:/libs/openvr/lib/win32" }
       targetdir "C:/steamcmd/SteamApps/common/SteamVR/drivers/null/bin/win32"
       
     configuration "vs*"
