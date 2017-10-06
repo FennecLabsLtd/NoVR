@@ -30,11 +30,11 @@ solution "NoVR"
     
     configuration "x64"
       libdirs { "$(OpenVRDir)/lib/win64" }
-      targetdir "C:/Program Files (x86)/Steam/SteamApps/common/SteamVR/drivers/null/bin/win64"
+      targetdir "C:/steamcmd/SteamApps/common/SteamVR/drivers/null/bin/win64"
     
     configuration "x32"
       libdirs { "$(OpenVRDir)/lib/win32" }
-      targetdir "C:/Program Files (x86)/Steam/SteamApps/common/SteamVR/drivers/null/bin/win32"
+      targetdir "C:/steamcmd/SteamApps/common/SteamVR/drivers/null/bin/win32"
       
     configuration "vs*"
       flags { "NoMinimalRebuild" }
